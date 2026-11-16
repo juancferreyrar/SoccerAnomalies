@@ -7,5 +7,7 @@ Kaggle - [Football Players Stats (2025-2026)](https://www.kaggle.com/datasets/hu
 
 ## Directory Structure
 src/data_load.ipynb - The simulation and real-data loading script
+
 docs/ProjectPlan.csv - Project Plan with the task table
+
 docs/Iteration_2.pdf - Latex file containing all details pertaining to Iteration 2 progress, created in Overleaf
