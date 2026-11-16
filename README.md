@@ -9,4 +9,5 @@ Kaggle - [Football Players Stats (2025-2026)](https://www.kaggle.com/datasets/hu
 ## Scripts
 ### Iteration 2
 The simulation and real-data loading scripts are located in src/data_load.ipynb
-Note: It is a single file that performs both initial data loading and simulation.
+
+**Note:** It is a single file that performs both initial data loading and simulation.
