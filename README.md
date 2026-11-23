@@ -6,7 +6,7 @@ Our objective is to identify soccer players whose statistical performance differ
 Kaggle - [Football Players Stats (2025-2026)](https://www.kaggle.com/datasets/hubertsidorowicz/football-players-stats-2025-2026)
 
 ## Directory Structure
-src/data_load.ipynb - The simulation and real-data loading script
+src/data_load.py - The real-data data cleaning and EDA
 src/small_example.py - The small example used in our dataset
 src/simulate.py - The simulation conducted
 src/check_simulation.py - Verifying the simulation test
