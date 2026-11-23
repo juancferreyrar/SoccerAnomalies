@@ -2,7 +2,12 @@ from fractions import Fraction as F
 from math import isqrt, log, exp
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+def report(name, mine, ref):
+    mine = np.asarray(mine, float)
+    ref = np.asarray(ref, float)
 
+    error = np.max(np.abs(mine - ref))
+    print(name, "Maximum difference:", error)
 
 # ---------------------------------------------------------------- helpers
 def fmt(x):
@@ -278,7 +283,6 @@ print("\nPart A: all exact checks passed.")
 import numpy as np
 from methods import (my_mean, my_center, my_covariance, my_inverse,
                      my_mahalanobis2, my_threshold, my_anomalies)
-from checks import report
 
 header("PART B: methods.py functions vs exact fractions")
 fl = lambda M: np.array([[float(a) for a in r] for r in M]) if isinstance(M[0], list) else np.array([float(a) for a in M])
