@@ -7,6 +7,12 @@ Kaggle - [Football Players Stats (2025-2026)](https://www.kaggle.com/datasets/hu
 
 ## Directory Structure
 src/data_load.ipynb - The simulation and real-data loading script
+src/small_example.py - The small example used in our dataset
+src/simulate.py - The simulation conducted
+src/check_simulation.py - Verifying the simulation test
+src/run_real.py - Usage of real data and comparisson with relevant libraries
+
+
 
 docs/ProjectPlan.csv - Project Plan with the task table
 
